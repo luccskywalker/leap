@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-image: url(/assets/nnnoise.svg);
+  height: 95vh;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+ul {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  float: inherit;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar {
+  font-family: "PT Serif", serif;
+}
+
+.name {
+  color: #1f257c;
+  font-size: 130px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.vinyl {
+  height: 500px;
+  width: 300px;
+  position: relative;
+  left: 70vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/assets/vinyl.jpg);
+}
+
+.content,
+.projects,
+.about,
+.contato {
+  height: 95vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-items: right;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
